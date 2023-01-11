@@ -1,0 +1,196 @@
+
+@media screen and (max-width:580px) {
+
+.box_filters{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+
+
+    font-family: 'Raleway', sans-serif;
+    
+    justify-content:flex-start;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+
+.infos{
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    line-height: 1em;
+
+}
+
+.ligne_filters{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   
+
+}
+
+.box_filters h5{
+    
+    font-size: 18px;
+
+}
+
+.filter{
+
+  
+   height: auto;
+    width: 160px;
+    text-align: center;
+    font-weight: 200;
+    padding: 0px;
+    
+    
+}
+
+
+ 
+     
+    .pop_search{
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        align-items: center;
+    }
+    
+    .bloc_search{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        margin: auto;
+        align-items: center;
+    
+    }
+
+
+
+    .recherche{
+        width: 100%;
+        gap: 2%;
+        order: 2;
+        background-color: white;
+    
+    
+    }
+
+
+    
+    .bloc_pop {
+       
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        border-radius: 0px;
+        width: 100%;
+        height: 680px;
+        align-items: center;
+    }
+
+    .orga_pop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_pop {
+        width: 100%;
+    
+    }
+
+
+
+    .bloc_activites{
+        display:flex;
+        flex-direction: column;
+        width: auto;
+        
+    }
+
+
+    .card_activites {
+        border-radius: 20px;
+        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+        margin-bottom: 20px;
+        width: 85%;
+        height: 190px;
+    }
+
+
+    .card_activites img{
+        width: 100%;
+        height: 134px;
+        object-fit:cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .ligne_activites{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+
+    .card_search{
+        border: solid white 3px;
+        border-radius: 15px;
+        padding: 0.3em;
+        background-color: white;
+        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+        
+        width: 85%;
+        height: 199px;
+        margin-bottom: 5%;
+        
+    
+        
+    }
+    
+    
+    footer{
+        background-color: #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    /* Bloc comportement footer */
+    .box_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+
+    /* Bloc menu footer */
+    .menu_footer{
+        margin-top: 0px;
+        display:flex;
+        flex-direction: column;
+        line-height: 2em;
+        margin-left: 10%;
+    }
+    
+.titre_activites{
+    width: 50%;
+    margin-left: 15%;
+}
+
+.aplus{
+    display:none;
+}
+
+}
+    

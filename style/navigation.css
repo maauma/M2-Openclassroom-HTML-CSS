@@ -1,0 +1,82 @@
+/* Barre de navigation */
+
+body{margin: 0px}
+    /* Bloc du menu principal de navigation + logo*/
+    .menu_principal {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-left: 15px; 
+        font-family: 'Raleway', sans-serif;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    /* Bloc menu principal */
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+        justify-content: space-around;
+        
+    
+    }
+
+    /* Effet au survol du menu */
+    .menu a:hover{
+    border-top: 5px solid #0065FC;
+    
+    
+    color: #0065FC;
+    }
+
+ 
+
+
+    /* Comportement du logo */
+       .menu_principal img{
+        width: 60px;
+        position: static;
+    }
+
+    /* Icônes */
+    /* Étoiles */
+    .fa-star {
+        display: flex;
+        flex-direction: row;
+        color: #0065FC;
+    }
+
+    #grise{
+        color: #F2F2F2;
+    }
+
+    .etoiles_1{
+        display: flex;
+        align-items:flex-start;
+        color: red;
+   
+    }
+    
+    @media screen and (max-width:580px) {
+        .menu_principal {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+           
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.9em;
+            align-items: center;
+        }
+
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #0065FC;
+            width: 100%;
+            font-size: 16px;
+        
+        }
+    }

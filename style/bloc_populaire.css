@@ -1,0 +1,122 @@
+/*Hôtels et résultats populaires*/
+
+    /* Titre catégorie populaire */
+    .infos_pop{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        margin-left: 5%;
+        justify-content: space-between;
+        margin-right:5%;
+        margin-top: 5px;
+        width: 90%;
+    }
+
+    .infos_pop i{
+        color: #0065FC;
+    }
+    
+    /* Conteneur du bloc populaire */
+    .bloc_pop{
+        background-color: #F2F2F2;
+        padding: 5px;  
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        border-radius: 15px;
+        width:30%;
+        height: 625px;
+        margin: 0px;
+       
+
+    }
+
+    .orga_pop{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: -25px;
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* Carte hôtel populaire */
+    .card_pop{
+        padding: 0.3em;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+        border-radius: 15px;
+        margin-top: 5%;
+        width: 80%;
+        height: 144px;
+        overflow:auto;
+        
+        
+        
+      
+              
+    }
+
+
+    .contenu_card1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        width: 50%;
+    
+        margin-left: 20px;
+        margin-top: -10px;
+        height: 100%;
+        
+        
+    
+        
+    }
+  
+    /*Image illustration de l'hôtel pour la carte populaire*/
+    .card_pop img{
+        width: 137px;
+        height: 144px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        object-fit:cover;
+    
+    }
+
+    .text_card_pop{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+       margin-bottom: 0px;
+       
+    }
+
+    .prix{
+        margin-top: -40px;
+       
+        
+        
+    }
+
+
+
+
+
+
+

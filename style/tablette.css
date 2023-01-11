@@ -1,0 +1,101 @@
+/* MEDIA QUERIES POUR TABLETTE */
+@media screen and (max-width:1024px) {
+    
+    .pop_search{
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .bloc_pop{
+        display: flex;
+        flex-direction: column;
+        background-color: #e8e8e8;
+        border-radius: 15px;
+        width:100%;
+       height: 278px;
+        margin-top: 25px;
+    }
+
+    .orga_pop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+/* Bloc activités */
+    /* Conteneur du bloc de résultats */
+    .ligne_activites{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    .card_pop{
+        width: 252px;
+        height: 144px;
+    }
+    
+    .card_pop img {
+        width: 70%;
+        height: 144px;
+    }
+
+    .contenu_card1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        width: 50%;
+    
+        margin-left: -40px;
+        margin-top: -10px;
+        height: 100%;
+    
+
+        
+        
+        
+    }
+
+  
+
+ 
+
+    .recherche {
+        background-color: #e8e8e8;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+    }
+
+
+    .card_activites{
+        height: 267px;
+        width: 182px;
+        object-fit: cover;
+    }
+
+    .card_activites img{
+        height: 211px;
+        width: 182px;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+    .bloc_activites{
+        width: 100%;
+    }
+
+    .ligne_activites{
+        width: 100%;
+    }
+}

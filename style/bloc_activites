@@ -1,0 +1,53 @@
+/* Bloc activités */
+    .bloc_activites{
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        
+        width: 100%;
+
+    }
+
+    /* Conteneur du bloc de résultats */
+    .ligne_activites{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+    }
+
+     /* Carte de présentation Activités */
+     .card_activites {
+        border-radius: 20px;
+        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+        margin-bottom: 0px;
+        width: 302px;
+        height: 444px;
+    }
+
+    /* Comportement des textes cards activités */
+   
+
+    /* Images d'illustration pour les cartes activités */
+    .card_activites img{
+        width: 100%;
+        
+        height: 388px;
+        object-fit:cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    /* Comportement du titre des activités */
+    .titre_activites{
+        margin-left: 25px;
+    }
+
+    .card_activites h5 {
+    
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+   

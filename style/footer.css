@@ -1,0 +1,25 @@
+/* Feuille de style pour le footer */
+    /* Footer */
+   footer{
+        background-color: #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    /* Bloc comportement footer */
+    .box_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+
+    /* Bloc menu footer */
+    .menu_footer{
+        margin-top: 0px;
+        display:flex;
+        flex-direction: column;
+        line-height: 2em;
+    }

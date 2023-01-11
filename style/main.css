@@ -1,0 +1,17 @@
+
+/* Main */
+    /* Maxi conteneur avec le bloc résultats + le bloc populaire + le bloc activités*/
+    .contenu_principal{
+        font-family: 'Raleway', sans-serif;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Conteneur du bloc résultats + populaires */
+    .pop_search{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    

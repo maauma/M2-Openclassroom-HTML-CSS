@@ -1,0 +1,40 @@
+    /* Titre et sous titre */
+    .infos{
+        font-family: 'Raleway', sans-serif;
+        margin: 5px;
+        line-height: 0.5em;
+    }
+
+    /* Formulaire de recherche */
+    .form_search{
+        display: flex;
+        flex-direction: row;
+        width: 125px;
+        text-align:center;
+    }
+    
+    /* Bloc formulaire de recherche */
+    .search {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 40px;
+    }
+
+    /* Bouton rechercher */
+    #bouton_r{
+        background-color: #0065FC;
+        font-family: 'Raleway', sans-serif;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color: white;
+        padding: 12px 8px 12px 8px;
+        font-size: 1em;
+        font-weight: 500;
+        width: 125px;
+        height: 45px;
+        border: none;
+        text-align:center;
+    }
+
+
