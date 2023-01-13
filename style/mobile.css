@@ -1,147 +1,151 @@
 
+/* Comportement du site en version "Mobile" */
 @media screen and (max-width:580px) {
 
-.box_filters{
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-
-
-
-    font-family: 'Raleway', sans-serif;
     
-    justify-content:flex-start;
-    height: auto;
-    padding: 0px;
-    margin: 0px;
-    
-   
-}
+    header{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 
-.infos{
-    font-family: 'Raleway', sans-serif;
-    margin: 5px;
-    line-height: 1em;
-
-}
-
-.ligne_filters{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-   
-
-}
-
-.box_filters h5{
-    
-    font-size: 18px;
-
-}
-
-.filter{
-
-  
-   height: auto;
-    width: 160px;
-    text-align: center;
-    font-weight: 200;
-    padding: 0px;
-    
-    
-}
-
-
- 
-     
-    .pop_search{
+    .box_nav {
         display: flex;
         flex-direction: column;
-        width: 98%;
-        align-items: center;
-    }
-    
-    .bloc_search{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        margin: auto;
-        align-items: center;
-    
-    }
-
-
-
-    .recherche{
-        width: 100%;
-        gap: 2%;
-        order: 2;
-        background-color: white;
-    
-    
-    }
-
-
-    
-    .bloc_pop {
-       
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        border-radius: 0px;
-        width: 100%;
-        height: 680px;
-        align-items: center;
-    }
-
-    .orga_pop{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card_pop {
-        width: 100%;
-    
-    }
-
-
-
-    .bloc_activites{
-        display:flex;
-        flex-direction: column;
+       justify-content: space-between;
         width: auto;
+        font-family: 'Raleway', sans-serif;   
+}
+
+.box_logo{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 25px;
+margin-top:25px;
+
+}
+/* Box contenant le Logo dans le menu */
+.box_logo img{
+height: 19px;
+}
+
+/* Bloc menu "Navigation" */
+.box_menu{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   padding-bottom:0px;
+   border-bottom: solid grey 4px;
+   width: 100%;
+   
+   
+
+}
+
+.item_menu:hover{
+    border-top:none;
+    
+    border-bottom: solid blue 2px;
+   
+    color:blue;
+}
+
+    /* Comportement du "Footer" sur mobile */
+    footer{
+        background-color: #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+    }
+
+        .bloc_formulaire{
+            display: flex;
+            flex-direction: row;
+       
+           height: 49px;
+        
+           margin-left: 50px;
+            width: 100%;
+        }
+         /* Bloc contenant le "Formulaire de recherche" en version mobile*/
+        .search {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            height: 40px;
+            
+            
+            
+            }
+    
+        /* Titre et sous titre "Formulaire de recherche" en version mobile*/
+        .infos{
+            font-family: 'Raleway', sans-serif;
+            margin: 5px;
+            line-height: 1.5em;
+        }
+
+/* PARTIE FILTRES VERSION MOBILE */
+
+    /* Comportement des "Filtres" en version mobile */
+    .box_filters{
+    display: flex;
+    flex-direction: column;
+        height: auto;
+        
         
     }
 
+    /* Bloc des cards "Filtres" en version mobile */
+    .ligne_filters{
 
-    .card_activites {
-        border-radius: 20px;
-        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-        margin-bottom: 20px;
-        width: 85%;
-        height: 190px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+
+    
+
     }
 
-
-    .card_activites img{
-        width: 100%;
-        height: 134px;
-        object-fit:cover;
-        border-radius: 15px 15px 0px 0px;
+    /* Cards "Filtres" en version mobile */
+    .filter a{
+        font-size: 14px;
     }
 
-    .ligne_activites{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    /* Titre des "Filtres" en version mobile */
+    .titre_filters{
+        margin-left: 5%;
+        margin-bottom: -20px;
     }
 
-
-
-
+/* ORGANISATION DU BLOC DE "RÉSULTATS" EN VERSION MOBILE */
+    /* Conteneur des cards hébergements en version mobile */
+    .bloc_search{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            margin: auto;
+            align-items: center;
+        
+    }
+    /* Conteneur de la boite "Recherche" en version mobile */
+    .recherche{
+            width: 100%;
+            gap: 2%;
+            order: 2;
+            background-color: white;
+        
+        
+    }
+    /* Card recherche en version mobile*/
     .card_search{
         border: solid white 3px;
         border-radius: 15px;
@@ -156,16 +160,102 @@
     
         
     }
-    
-    
-    footer{
-        background-color: #e8e8e8;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Raleway', sans-serif;
+    /* Afficher plus en version mobile */
+    .aplus{
+        display:none;
     }
 
-    /* Bloc comportement footer */
+/* ORGANISATION DU BLOC "POPULAIRE" EN VERSION MOBILE */
+
+    /* Organisation des cards du bloc "Populaire" en version mobile*/
+    .orga_pop{
+            display: flex;
+            flex-direction: column;
+    }
+
+    /* Organisation Cards "Populaire" en version mobile */
+    .card_pop{
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        
+            background-color: white;
+            box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+            border-radius: 15px;
+            margin-top: 5%;
+            width: 95%;
+            height: 144px;
+            
+    }
+
+    /* Organisation textes + étoiles Cards "Populaire" en version mobile */
+    .contenu_card1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            width: 40%;
+        
+            margin-left: 20px;
+            margin-top: -10px;
+            height: 100%;
+        
+    }
+
+    
+    
+  
+
+
+
+
+
+        
+   
+
+    
+
+    /* BLOC ACTIVITES */
+    .titre_activites{
+        width: 50%;
+        margin-left: 15%;
+    }
+
+    .ligne_activites{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+    }
+
+    .card_activites {
+            border-radius: 20px;
+            box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+            width: 90%;
+            height: 190px;
+            margin-bottom: 15px;
+        
+    }
+
+    /* Images d'illustration pour les cartes activités en version mobile */
+    .card_activites img{
+            
+            width:100%;
+            height: 134px;
+            object-fit:cover;
+            border-radius: 15px 15px 0px 0px;
+    }
+
+
+
+
+
+
+
+/* COMPORTEMENT DU FOOTER EN VERSION MOBILE */
+      /* Bloc comportement footer en version mobile */
     .box_footer{
         display: flex;
         flex-direction: column;
@@ -174,23 +264,14 @@
         margin-bottom: 25px;
     }
 
-    /* Bloc menu footer */
+    /* Bloc menu footer en version mobile */
     .menu_footer{
-        margin-top: 0px;
-        display:flex;
-        flex-direction: column;
-        line-height: 2em;
-        margin-left: 10%;
+            margin-top: 0px;
+            display:flex;
+            flex-direction: column;
+            line-height: 2em;
+            margin-left: 10%;
     }
-    
-.titre_activites{
-    width: 50%;
-    margin-left: 15%;
-}
-
-.aplus{
-    display:none;
-}
 
 }
     

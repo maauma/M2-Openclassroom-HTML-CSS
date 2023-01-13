@@ -1,8 +1,21 @@
-    /* Titre et sous titre */
+/* Feuille CSS pour le "Formulaire de recherche" */
+
+    /* Titre et sous titre "Formulaire de recherche" */
     .infos{
         font-family: 'Raleway', sans-serif;
         margin: 5px;
         line-height: 0.5em;
+    }
+
+    /* Bloc contenant le "Formulaire de recherche" */
+    .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: auto;
+   
+    padding: 5px;
     }
 
     /* Formulaire de recherche */
@@ -11,16 +24,9 @@
         flex-direction: row;
         width: 125px;
         text-align:center;
+        background-color: blue;
     }
     
-    /* Bloc formulaire de recherche */
-    .search {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        height: 40px;
-    }
-
     /* Bouton rechercher */
     #bouton_r{
         background-color: #0065FC;

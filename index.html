@@ -10,7 +10,7 @@
             <title>Mon agence de voyages</title>
             <!-- Mes feuilles de style CSS -->
             
-            <link href="stylesheet" href="style/icone.css">
+            
             <link rel="stylesheet" href="style/navigation.css">
             <link rel="stylesheet" href="style/filters_style.css">
             <link rel="stylesheet" href="style/search_style.css">
@@ -22,6 +22,7 @@
             <link rel="stylesheet" href="style/footer.css">
             <link rel="stylesheet" href="style/tablette.css">
             <link rel="stylesheet" href="style/mobile.css">
+            <link href="stylesheet" href="style/icone.css">
             <!-- Polices & icones -->
             <script src="https://kit.fontawesome.com/fc91445628.js" crossorigin="anonymous"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
@@ -30,16 +31,18 @@
         <!-- Début Body -->
         <body>  
             <!-- Début du menu de navigation -->
-            <div class="menu_principal"> 
+            <div class="box_nav"> 
                 <!-- ancre logo du site -->
-                <a class="logo" href="./index.html"> 
-                    <img src="Images Booki/logo/Booki.png" alt="Logo Booki">
-                </a>
+                <div class="box_logo">
+                    <a class="logo" href="./index.html"> 
+                        <img src="Images Booki/logo/Booki.png" alt="Logo Booki">
+                    </a>
+                </div>
                 <!-- Contenu du menu de navigation -->
-                <ul class="menu">
-                    <a class="item_1">Hébergements</a>
-                    <a class="item_2">Activités</a>
-                </ul>
+                <div class="box_menu">
+                    <a class="item_menu">Hébergements</a>
+                    <a class="item_menu">Activités</a>
+                </div>
             </div>
             <!-- Fin du menu de navigation -->
 
@@ -52,22 +55,26 @@
                 </div>
 
                 <!-- Début du bloc formulaire barre de recherche -->
+                <div class="bloc_formulaire">
                 <div class="search"> 
                     <!-- Icone de localisation -->
                     <i class="fa-solid fa-location-dot"></i>
                     <!-- Formulaire & bouton rechercher la ville -->
+                    <div class="formulaire">
                     <form class="form_search" method="get" action="">
                         <input type="text" name="Ville" placeholder="Ex.: Marseille" value="Marseille, France">
-                        <input id="bouton_r"type="submit" value="Rechercher"> 
-                        
+                        <input id="bouton_r"type="submit" value="Rechercher">
+                         
                     </form>
+                    </div>
+                </div>
                 </div>
 
                 <!-- Début du bloc de filtres -->
                 <div class="box_filters">
                     <!-- Titre bloc Filtres -->
                     <div class="titre_filters">
-                        <h5>Filtres</h5>
+                        <h4>Filtres</h4>
                     </div>
                     <!-- Début de la ligne contenant les filtres -->
                     <div class="ligne_filters">
@@ -258,7 +265,7 @@
                             <!-- Carte 1er Hotel populaire-->
                             <div class="card_pop">
                                 <div class="image_card1">
-                                    <img src="./Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                                    <img src="./Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                                 </div>
 
                                 <div class="contenu_card1">
@@ -304,7 +311,7 @@
                             <!-- Carte 3ème hôtel populaire-->
                             <div class="card_pop">
                                 <div class="image_card1">
-                                    <img src="./Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                                    <img src="./Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                                 </div>
 
                                 <div class="contenu_card1">

@@ -1,4 +1,17 @@
 
+header{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box_nav {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 /* Main */
     /* Maxi conteneur avec le bloc résultats + le bloc populaire + le bloc activités*/
     .contenu_principal{
@@ -12,6 +25,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-bottom: 40px;
     }
 
     

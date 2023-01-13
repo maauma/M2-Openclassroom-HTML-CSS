@@ -1,44 +1,14 @@
 
-/* Conteneur des divers filtres */
+/* Conteneur du bloc "Filtres" */
 .box_filters{
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction:row;
-    align-items: center;
     justify-content:flex-start;
-    margin: 10px;
-    height: 80px;
+    height: 50px;
     width: auto;
+    margin-top: 20px;
 }
-
-/* Bloc des filtres */
-.ligne_filters{
-    display: flex;
-    flex-direction: row;
-}
-
-/* Apparence des cards filtres */
-.filter{
-    border-radius: 50px;
-    border: 0.05em solid gray;
-    width: auto;
-    text-align: center;
-    margin: 15px;
-    gap: 0.8em;
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-/* Effets lors du clic sur les filtres */
-.filter:active{
-    background-color: #DEEBFF;
-}
-
-
 
 /* Bloc titre + icône */
 .info_filtres{
@@ -48,7 +18,7 @@
     width: auto;
     font-family: 'Raleway', sans-serif;
     gap: 15px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 /* Icône de localisation */
@@ -63,7 +33,35 @@
     border-radius: 15px 0px 0px 15px;
 }
 
-/* Coloration des icônes */
+/* Bloc des cards "Filtres" */
+.ligne_filters{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Cards "Filtres" */
+.filter{
+    border-radius: 50px;
+    border: 0.05em solid gray;
+    width: auto;
+    margin: 15px;
+    gap: 0.8em;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-left:10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Comportement des Icônes des cards "Filtres" */
 .filter i{
     color: #0065FC;
+}
+
+/* Effets clic sur les "Filtres" */
+.filter:active{
+    background-color: #DEEBFF;
 }

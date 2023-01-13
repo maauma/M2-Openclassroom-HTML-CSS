@@ -7,7 +7,7 @@
         font-family: 'Raleway', sans-serif;
     }
 
-    /* Bloc comportement footer */
+    /* Bloc menu "Footer" */
     .box_footer{
         display: flex;
         flex-direction: row;
@@ -16,7 +16,7 @@
         margin-bottom: 25px;
     }
 
-    /* Bloc menu footer */
+    /* Bloc organisation "Footer" */
     .menu_footer{
         margin-top: 0px;
         display:flex;
