@@ -6,10 +6,12 @@
     header{
         margin-left: 5%;
         margin-right: 5%;
+        
     }
     body{
         margin-left: 0%;
         margin-right: 0%;
+        margin-top: 0px;
     }
 
     .box_nav {
@@ -18,6 +20,7 @@
        justify-content: space-between;
         width: auto;
         font-family: 'Raleway', sans-serif;   
+       
 }
 
 .box_logo{
@@ -39,22 +42,19 @@ height: 19px;
     display: flex;
     flex-direction: row;
    justify-content: space-around;
-   padding-bottom:0px;
-   border-bottom: solid grey 4px;
-   width: 100%;
+   padding-bottom:25px;
+   border-bottom: solid rgb(242, 242, 242, 0.6) 3px;
+   width: 110%;
    
    
 
 }
 
 .item_menu:hover{
-    border-top:none;
-    
-    border-bottom: solid blue 2px;
-   
-    color:blue;
-}
+    border-top: none;
 
+    
+}
     /* Comportement du "Footer" sur mobile */
     footer{
         background-color: #e8e8e8;
@@ -63,26 +63,21 @@ height: 19px;
         font-family: 'Raleway', sans-serif;
     }
 
-        .bloc_formulaire{
-            display: flex;
-            flex-direction: row;
-       
-           height: 49px;
+
+
+
+   
+        /* Formulaire de recherche */
+        .formulaire{
+            margin-left: 2.5%;
         
-           margin-left: 50px;
-            width: 100%;
+        justify-content: center;
+           
+            
+            
+         
         }
-         /* Bloc contenant le "Formulaire de recherche" en version mobile*/
-        .search {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            
-            height: 40px;
-            
-            
-            
-            }
+   
     
         /* Titre et sous titre "Formulaire de recherche" en version mobile*/
         .infos{
@@ -95,10 +90,11 @@ height: 19px;
 
     /* Comportement des "Filtres" en version mobile */
     .box_filters{
+        margin-top: 10px;
     display: flex;
     flex-direction: column;
         height: auto;
-        
+        width: 100%;
         
     }
 
@@ -121,9 +117,12 @@ height: 19px;
 
     /* Titre des "Filtres" en version mobile */
     .titre_filters{
-        margin-left: 5%;
+        margin-left: -90%;
         margin-bottom: -20px;
+    
     }
+
+  
 
 /* ORGANISATION DU BLOC DE "RÉSULTATS" EN VERSION MOBILE */
     /* Conteneur des cards hébergements en version mobile */
@@ -187,6 +186,11 @@ height: 19px;
             width: 95%;
             height: 144px;
             
+            
+    }
+
+    .bloc_pop{
+        font-size: 1em;
     }
 
     /* Organisation textes + étoiles Cards "Populaire" en version mobile */

@@ -1,16 +1,17 @@
 
+
+
+
 header{
+    margin-top: 50px;
     margin-left: 5%;
-    margin-right: 5%;
-}
-body{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%
 }
 
 .box_nav {
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 25px;
 }
 /* Main */
     /* Maxi conteneur avec le bloc résultats + le bloc populaire + le bloc activités*/

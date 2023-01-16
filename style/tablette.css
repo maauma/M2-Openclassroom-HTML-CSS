@@ -4,8 +4,9 @@
 @media screen and (max-width:1024px) {
 
     body{
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     .pop_search{
@@ -16,11 +17,15 @@
     .bloc_pop{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         border-radius: 15px;
         width:100%;
        height: auto;
         margin-top: 25px;
+        margin-right: 5%;
+        font-size: 0.9em;
+        
+        padding-bottom: 50px;
         
         
     }
@@ -28,15 +33,17 @@
    .orga_pop{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    margin-right: 5%;
-    margin-left:5%;    
-
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
  
-    
-    width: 90%;
+      
+
+   
    }
+
+
 
     .infos_pop{
         display: flex;
@@ -52,10 +59,12 @@
         flex-direction: column;
         justify-content: space-between;
         margin-bottom: 5px;
-        width: 60%;
-    
-        margin-left: 20px;
+       width: 60%;
         margin-top: -10px;
+        
+    margin-right: 10px;
+        margin-left: 10px;
+       
         height: 100%;
     
     }
@@ -72,8 +81,7 @@
     }
 
     .recherche {
-        background-color: #e8e8e8;
-        border-radius: 20px;
+      
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -96,6 +104,11 @@
         margin-bottom: 15px;
     }
 
+    .card_activites h5 {
+        margin-top: 15px;
+        
+    }
+
     .card_activites img{
         width:182px;
         height: 211px;
@@ -103,14 +116,7 @@
         border-radius: 15px 15px 0px 0px;
     }
 
-    form [name="Ville"] {
-        color:black;
-        font-family: 'Raleway', sans-serif;
-        background-color: yellow;
-        font-weight: 600;
-        font-size: 16px;
-    }
-
+  
     
 
     
