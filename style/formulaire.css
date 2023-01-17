@@ -1,3 +1,4 @@
+
 /* Feuille CSS pour le "Formulaire de recherche" */
 
     /* Titre et sous titre "Formulaire de recherche" */
@@ -5,25 +6,25 @@
         font-family: 'Raleway', sans-serif;
         line-height: 1em;
     }
-
     /* Bloc contenant le "Formulaire de recherche" */
     .search {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     height: 40px;
-    width: 100%;
-    margin-top: 20px;
+    
+    
    
     
     }
-
+    /* Boite contenant le formulaire de recherche */
     .formulaire{
            
         display: flex;
         flex-direction: row;
-        width: 90%;
-        padding: 10px;
+        justify-content: space-around;
+       
+        padding: 15px 10px 15px 10px;
         
         margin-top: -10px;
         font-size: 16px;
@@ -32,16 +33,16 @@
          
       
      }
-
     /* Formulaire de recherche */
     .form_search{
         display: flex;
         flex-direction: row;
+        width: 96%;
+        margin-left: 0px;
        
         
        
     }
-    
     /* Bouton rechercher */
     #bouton_r{
         background-color: #0065FC;
@@ -52,20 +53,32 @@
         
         font-size: 1em;
         font-weight: 500;
-        width: 132px;
+        width: auto;
         height: 45px;
         border: none;
         text-align:center;
     }
 
-
+    /*Comportement du texte dans le formulaire de recherche*/
     form [name="Ville"] {
         color:black;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 17px;
+        width: 60%;
+        padding-left: 5px;
+     
+       
         
        
+    }
+
+     /* Icône de localisation */
+     .fa-location-dot{
+        color: black;
+        padding: 15px 20px 15px 20px;
+        background-color: rgba(242, 242, 242, 1);
+        border-radius: 15px 0px 0px 15px;
     }
 
    

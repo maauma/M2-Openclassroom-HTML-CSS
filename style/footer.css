@@ -1,3 +1,4 @@
+
 /* Feuille de style pour le footer */
     /* Footer */
    footer{
@@ -6,7 +7,6 @@
         flex-direction: column;
         font-family: 'Raleway', sans-serif;
     }
-
     /* Bloc menu "Footer" */
     .box_footer{
         display: flex;
@@ -15,7 +15,6 @@
         padding: 15px;
         margin-bottom: 25px;
     }
-
     /* Bloc organisation "Footer" */
     .menu_footer{
         margin-top: 0px;

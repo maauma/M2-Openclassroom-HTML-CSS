@@ -1,32 +1,42 @@
 
 
+/* Position et marges du Header en version desktop */
 
+    /* Header */
+    header{
+        margin-top: 50px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-header{
-    margin-top: 50px;
-    margin-left: 5%;
-    margin-right: 5%
-}
+    footer{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+/* Position et marges du menu de navigation en version desktop */
+    /* Menu de navigation */
+    .box_nav {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 35px;
+    }
 
-.box_nav {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 25px;
-}
+   
+
 /* Main */
     /* Maxi conteneur avec le bloc résultats + le bloc populaire + le bloc activités*/
     .contenu_principal{
-        font-family: 'Raleway', sans-serif;
-        flex-direction: column;
-        align-items: center;
+        font-family: 'Raleway', sans-serif;  
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 96%;
     }
-    
     /* Conteneur du bloc résultats + populaires */
     .pop_search{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-bottom: 40px;
     }
 
-    

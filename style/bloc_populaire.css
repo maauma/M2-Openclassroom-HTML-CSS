@@ -1,3 +1,5 @@
+
+
 /*Résultats hôtels populaires*/
 
     /* Titre catégorie "Populaire" */
@@ -10,22 +12,19 @@
         margin-right:10%;
         margin-top: 15px; 
     }
-
     /* Icone titre catégorie "Populaire" */
     .infos_pop i{
         color: #0065FC;
     }
-
     /* Conteneur du bloc "Populaire" - titre + cards */
     .bloc_pop{
         background-color: rgb(242, 242, 242, 0.6);
         display: flex;
         flex-direction: column;
         border-radius: 15px;
-        width:30%;
+        width:32%;
         height: 625px;
     }
-
     /* Organisation des cards du bloc "Populaire"  */
     .orga_pop{
         display: flex;
@@ -33,9 +32,7 @@
         justify-content: flex-start;
         align-items: center;
         margin-top: -25px;
-        
     }
-
     /* Organisation Cards "Populaire"" */
     .card_pop{
         padding: 5px;
@@ -47,21 +44,20 @@
         margin-top: 5%;
         width: 80%;
         height: 144px;
-        overflow:auto;       
+        overflow: auto;
     }
-
     /* Organisation textes + étoiles Cards "Populaire" */
     .contenu_card1{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-bottom: 5px;
-        width: 40%;
+        margin-bottom: 3px;
+        width: 60%;
         margin-left: 10px;
-        margin-top: -10px;
-        height: 100%;
+        margin-top: -15px;
+        margin-right: 20px;
+        
     }
-  
     /*Image illustration pour les Cards "Populaire"*/
     .card_pop img{
         width: 137px;
@@ -70,14 +66,9 @@
         border-bottom-left-radius: 15px;
         object-fit:cover;
     }
-    /* Nom de l'hôtel cards "Populaire" */
-    .text_card_pop{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-       margin-bottom: 0px;
-    }
+ 
+ 
     /* Prix de la nuit cards "Populaire" */
     .prix{
-        margin-top: -30%;   
+        margin-top: -35%;   
     }

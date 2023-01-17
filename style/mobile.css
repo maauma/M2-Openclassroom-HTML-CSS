@@ -1,128 +1,137 @@
 
 /* Comportement du site en version "Mobile" */
-@media screen and (max-width:580px) {
+@media screen and (max-width:520px) {
 
-    
+/* Comportement général du site en version mobile */
+    /* Header sur mobile */
     header{
-        margin-left: 5%;
-        margin-right: 5%;
-        
+        margin-left: 2%;
+        margin-right: 2%;
     }
+    /* Body sur mobile */
     body{
         margin-left: 0%;
         margin-right: 0%;
         margin-top: 0px;
     }
 
+    
     .box_nav {
         display: flex;
         flex-direction: column;
-       justify-content: space-between;
+       justify-content: flex-start;
         width: auto;
+        height: auto;
         font-family: 'Raleway', sans-serif;   
-       
-}
-
-.box_logo{
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-bottom: 25px;
-margin-top:25px;
-
-}
-/* Box contenant le Logo dans le menu */
-.box_logo img{
-height: 19px;
-}
-
-/* Bloc menu "Navigation" */
-.box_menu{
-    display: flex;
-    flex-direction: row;
-   justify-content: space-around;
-   padding-bottom:25px;
-   border-bottom: solid rgb(242, 242, 242, 0.6) 3px;
-   width: 110%;
-   
-   
-
-}
-
-.item_menu:hover{
-    border-top: none;
+       margin-top: 20px;
+    }
 
     
-}
-    /* Comportement du "Footer" sur mobile */
-    footer{
-        background-color: #e8e8e8;
+/* Comportement du bloc Navigation sur Mobile */
+    /* Box contenant le logo */
+    .box_logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+
+    }
+    /* Comportement de l'image de logo */
+    .box_logo img{
+    height: 19px;
+    }
+    /* Bloc menu "Navigation" */
+    .box_menu{
         display: flex;
-        flex-direction: column;
-        font-family: 'Raleway', sans-serif;
+        flex-direction: row;
+    justify-content: space-around;
+    padding-bottom:25px;
+    border-bottom: solid rgb(242, 242, 242, 0.6) 3px;
+    width: 110%;
+    
+    
+
+    }
+    /* Comportement au survol du menu */
+    .item_menu:hover{
+        border-top: none;
+
+        
     }
 
 
-
-
-   
-        /* Formulaire de recherche */
-        .formulaire{
-            margin-left: 2.5%;
-        
+/* Box du Formulaire de recherche sur mobile */
+    /* Formulaire de recherche */
+    .formulaire{
+                
+            
         justify-content: center;
+            
+                
+                
+            
+    }
+    /* Titre et sous titre "Formulaire de recherche" en version mobile*/
+    .infos{
+                font-family: 'Raleway', sans-serif;
+                margin: 5px;
+                line-height: 1.5em;
+    }
+
+
+/* PARTIE FILTRES VERSION MOBILE */
+    /* Comportement des "Filtres" en version mobile */
+    .box_filters{
+            margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+            height: 250px;
+            
+            align-items: flex-start;
+    }
+    /* Bloc des cards "Filtres" en version mobile */
+    .ligne_filters{
+            margin-top: -20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 100%;
+
+    }
+
+    .info_filtres{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        gap: 15px;
+        width: 95%;
+        margin-top: -20px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 200;
+        
+        
+    }
+
+    .filter{
+        gap: 5px;
+        width: 75%;
+    }
+    /* Cards "Filtres" en version mobile */
+    .filter a{
+            font-size: 13px;
+            padding-left: 0px;
            
             
             
-         
-        }
-   
-    
-        /* Titre et sous titre "Formulaire de recherche" en version mobile*/
-        .infos{
-            font-family: 'Raleway', sans-serif;
-            margin: 5px;
-            line-height: 1.5em;
-        }
-
-/* PARTIE FILTRES VERSION MOBILE */
-
-    /* Comportement des "Filtres" en version mobile */
-    .box_filters{
-        margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-        height: auto;
-        width: 100%;
-        
     }
-
-    /* Bloc des cards "Filtres" en version mobile */
-    .ligne_filters{
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        
-
-    
-
-    }
-
-    /* Cards "Filtres" en version mobile */
-    .filter a{
-        font-size: 14px;
-    }
-
     /* Titre des "Filtres" en version mobile */
-    .titre_filters{
-        margin-left: -90%;
-        margin-bottom: -20px;
-    
-    }
+   
 
-  
 
 /* ORGANISATION DU BLOC DE "RÉSULTATS" EN VERSION MOBILE */
     /* Conteneur des cards hébergements en version mobile */
@@ -133,6 +142,7 @@ height: 19px;
             background-color: white;
             margin: auto;
             align-items: center;
+            
         
     }
     /* Conteneur de la boite "Recherche" en version mobile */
@@ -141,6 +151,7 @@ height: 19px;
             gap: 2%;
             order: 2;
             background-color: white;
+            
         
         
     }
@@ -164,14 +175,13 @@ height: 19px;
         display:none;
     }
 
-/* ORGANISATION DU BLOC "POPULAIRE" EN VERSION MOBILE */
 
+/* ORGANISATION DU BLOC "POPULAIRE" EN VERSION MOBILE */
     /* Organisation des cards du bloc "Populaire" en version mobile*/
     .orga_pop{
             display: flex;
             flex-direction: column;
     }
-
     /* Organisation Cards "Populaire" en version mobile */
     .card_pop{
             padding: 5px;
@@ -188,11 +198,11 @@ height: 19px;
             
             
     }
-
     .bloc_pop{
         font-size: 1em;
+        border-radius: 0px;
+        width: 100%;
     }
-
     /* Organisation textes + étoiles Cards "Populaire" en version mobile */
     .contenu_card1{
             display: flex;
@@ -207,59 +217,41 @@ height: 19px;
         
     }
 
-    
-    
-  
 
-
-
-
-
-        
-   
-
-    
-
-    /* BLOC ACTIVITES */
+/* BLOC ACTIVITES */
+    /* Titre du bloc Activités */
     .titre_activites{
-        width: 50%;
-        margin-left: 15%;
-    }
-
+            width: 50%;
+            margin-left: 15%;
+        }
+    /* Comportement du bloc contenant les cards Activités */
     .ligne_activites{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 50px;
     }
-
+    /* Composition d'une card pour le bloc Activités */
     .card_activites {
-            border-radius: 20px;
-            box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-            width: 90%;
-            height: 190px;
-            margin-bottom: 15px;
-        
+                border-radius: 20px;
+                box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+                width: 90%;
+                height: 190px;
+                margin-bottom: 15px;
     }
-
     /* Images d'illustration pour les cartes activités en version mobile */
     .card_activites img{
-            
-            width:100%;
-            height: 134px;
-            object-fit:cover;
-            border-radius: 15px 15px 0px 0px;
+                
+                width:100%;
+                height: 134px;
+                object-fit:cover;
+                border-radius: 15px 15px 0px 0px;
     }
-
-
-
-
-
 
 
 /* COMPORTEMENT DU FOOTER EN VERSION MOBILE */
-      /* Bloc comportement footer en version mobile */
+    /* Bloc comportement footer en version mobile */
     .box_footer{
         display: flex;
         flex-direction: column;
@@ -267,7 +259,6 @@ height: 19px;
         padding: 5px;
         margin-bottom: 25px;
     }
-
     /* Bloc menu footer en version mobile */
     .menu_footer{
             margin-top: 0px;
@@ -276,6 +267,15 @@ height: 19px;
             line-height: 2em;
             margin-left: 10%;
     }
+    /* Comportement du "Footer" sur mobile */
+    footer{
+        background-color: #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+    }
 
 }
     
+
+

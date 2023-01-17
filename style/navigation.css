@@ -2,61 +2,41 @@
 
 
 /* Bloc de la barre des menus :"Navigation" + logo*/
-.box_nav {
+    /* Bloc du menu de navigation */
+    .box_nav {
             display: flex;
             flex-direction: row;
-           justify-content: space-between;
+            justify-content: space-between;
             align-items: center;
-            width: 95%;
+            width: 96%;
             font-family: 'Raleway', sans-serif;   
-}
+    }
 
-.box_logo{
-    width: 20%;
-}
-/* Box contenant le Logo dans le menu */
-.box_logo img{
-    height: 19px;
-}
-
+    /* Box comportement du logo dans le menu */
+    .box_logo img{
+        height: 19px;
+    }
     /* Bloc menu "Navigation" */
     .box_menu{
         display: flex;
         flex-direction: row;
-      justify-content: flex-end;
-      gap:50px;
-      font-size: 20px;
-      margin-right: 2.5%;
-     
-      
-       
-        
-        
+        justify-content: flex-end;
+        gap:50px;
     }
-
-
     /* Box contenant les items du menu de navigation */
     .item_menu:hover{
         border-top: solid rgba(0, 101, 252, 1) 3px;
         padding-top: 22px;
         margin-top: -25px;
-        
+        color: rgba(0, 101, 252, 1);
     }
 
-
-
-
-
 /* Bloc des icônes Fontawesome */
-/* Etoile */
-.fa-star {
-        display: flex;
-        flex-direction: row;
-        color: #0065FC;
-}
-
-/* Étoiles grisée */
-#grise{
-        color: #F2F2F2;
-}
-
+    /* Etoile */
+    .fa-star {
+            color: #0065FC;
+    }
+    /* Étoiles grisée */
+    .grise{
+            color: #F2F2F2;
+    }

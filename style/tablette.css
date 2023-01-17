@@ -2,123 +2,137 @@
 /* MEDIA QUERIES POUR TABLETTE */
 
 @media screen and (max-width:1024px) {
-
-    body{
-        margin-top: 50px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    
-    .pop_search{
-        display: flex;
-        flex-direction: column; 
-    }
-    
-    .bloc_pop{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border-radius: 15px;
-        width:100%;
-       height: auto;
-        margin-top: 25px;
-        margin-right: 5%;
-        font-size: 0.9em;
+    /* Comportement global en mode tablette */
+        /* Comportement du body en mode tablette */
+        body{
+            margin-top: 50px;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
         
-        padding-bottom: 50px;
-        
-        
-    }
+        .box_nav{
+            margin-left: 3%;
+            margin-right: 3%;
+        }
 
-   .orga_pop{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
- 
-      
-
-   
-   }
+        header { margin-left: 3%;
+            margin-right: 3%;}
 
 
 
-    .infos_pop{
-        display: flex;
-        flex-direction:row;
-        align-items: center;
-        margin-left: 5%;
-        margin-right:5%;
-        justify-content: space-between; 
-    }
+         .box_menu{
+            font-size: 19px;
+         }
+        /* Comportement du bloc Populaire + Résultats */
+        .pop_search{
+            display: flex;
+            flex-direction: column; 
+            gap: 25px;
+        }
 
-    .contenu_card1{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 5px;
-       width: 60%;
-        margin-top: -10px;
-        
-    margin-right: 10px;
-        margin-left: 10px;
-       
-        height: 100%;
+        .titre_filters{
+            font-size: 21px;
+        }
     
-    }
-
-    .card_pop{
-        width: 30%;
-        height: 144px;
-    }
-    
-    .card_pop img {
-        width: auto;
-        max-width: 106px;
-        height: 144px;
-    }
-
-    .recherche {
-      
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    /* Comportement du bloc populaire en version tablette*/
+        /* Titre du bloc populaire */
+        .infos_pop{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            margin-left: 5%;
+            margin-right:5%;
+            justify-content: space-between; 
+        }
+        /* Bloc populaire : Titre +  en version tablette */
+        .bloc_pop{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 15px;
+            width:100%;
         height: auto;
-        justify-content: space-around;
-    }
-
-    .ligne_activites{
+            margin-top: 25px;
+            margin-right: 5%;
+            font-size: 0.9em;
+            padding-bottom: 50px;
+        }
+        /* Comportement de la boite populaire */
+        .orga_pop{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-        width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+        }
+        /* Découpage des textes d'une card Populaire */
+        .contenu_card1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            width: 40%;
+            margin-top: -10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            height: 100%;
+        }
+        /* Découpage d'une card populaire */
+        .card_pop{
+            width: 30%;
+            height: 144px;
+        }
+        /* Comportement d'une image pour les card populaires */
+        .card_pop img {
+            width: auto;
+            max-width: 106px;
+            height: 144px;
+        }
+
+    /* Comportement du bloc résultats en version tablette */
+        /* Bloc résultats en version tablette */
+        .recherche {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            justify-content: space-around;
+        }
+
+        .bloc_search{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+            margin-right: 30px;
     }
 
-    .card_activites {
-        border-radius: 20px;
-        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-        width: 182px;
-        height: 267px;
-        margin-bottom: 15px;
-    }
-
-    .card_activites h5 {
-        margin-top: 15px;
-        
-    }
-
-    .card_activites img{
-        width:182px;
-        height: 211px;
-        object-fit:cover;
-        border-radius: 15px 15px 0px 0px;
-    }
-
-  
-    
-
-    
+    /* Comportement du bloc Activités */
+        /* Comportement de la boite Activités en mode tablette */
+        .ligne_activites{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+        }
+        /* Découpage d'une card activité du bloc activités */
+        .card_activites {
+            border-radius: 20px;
+            box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+            width: 182px;
+            height: 267px;
+        }
+        /* Comportement du titre dans les cards activités */
+   
+        /* Comportement des images dans les cards activités */
+        .card_activites img{
+            width:182px;
+            height: 211px;
+            object-fit:cover;
+            border-radius: 15px 15px 0px 0px;
+        }
  
 }
