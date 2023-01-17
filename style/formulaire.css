@@ -28,6 +28,7 @@
         
         margin-top: -10px;
         font-size: 16px;
+        margin-left: -20px;
         
          
          
@@ -68,17 +69,52 @@
         width: 60%;
         padding-left: 5px;
      
-       
-        
-       
     }
 
-     /* Icône de localisation */
-     .fa-location-dot{
-        color: black;
-        padding: 15px 20px 15px 20px;
-        background-color: rgba(242, 242, 242, 1);
-        border-radius: 15px 0px 0px 15px;
-    }
+
 
    
+        
+    
+
+    .bouton_icone{
+        background-color: #0065FC;
+        font-family: 'Raleway', sans-serif;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color: white;
+        
+        font-size: 1em;
+        font-weight: 500;
+        width: 49px;
+        height: 45px;
+        border: none;
+        text-align:center;       
+    }
+
+    .bouton_loc{
+        background-color:rgb(242, 242, 242, 1);
+
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        color: white;
+        font-size: 1em;
+        font-weight: 500;
+        width: 49px;
+        height: 45px;
+        border: none;
+        text-align:center; 
+    }
+
+    .fa-location-dot{
+        color:black;
+    }
+    
+
+    .bouton_icone {
+       display: none;
+    }
+   
+   
+
+    

@@ -122,14 +122,14 @@
         .card_activites {
             border-radius: 20px;
             box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-            width: 182px;
-            height: 267px;
+            width: 22%;
+            height: auto;
         }
         /* Comportement du titre dans les cards activités */
    
         /* Comportement des images dans les cards activités */
         .card_activites img{
-            width:182px;
+            width:100%;
             height: 211px;
             object-fit:cover;
             border-radius: 15px 15px 0px 0px;
