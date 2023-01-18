@@ -32,6 +32,8 @@
         justify-content:space-between;
         align-items: center;
         height: 80%;
+        margin-top: 10px;
+        
     }
     /* Organisation Cards "Populaire"" */
     .card_pop{
@@ -43,7 +45,7 @@
         border-radius: 15px;
         width: 80%;
         height: 144px;
-        overflow: auto;
+        overflow:auto;
     }
     /* Organisation textes + étoiles Cards "Populaire" */
     .contenu_card1{
@@ -51,10 +53,11 @@
         flex-direction: column;
         justify-content: space-between;
         margin-bottom: 3px;
-        width: 60%;
         margin-left: 20px;
         margin-top: -15px;
         margin-right: 10px;
+        
+        
     }
     /*Image illustration pour les Cards "Populaire"*/
     .card_pop img{

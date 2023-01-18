@@ -5,24 +5,32 @@
     /* Comportement global en mode tablette */
         /* Comportement du body en mode tablette */
         body{
-            margin-top: 50px;
+            
             margin-left: 3%;
             margin-right: 3%;
         }
-        
+        /* Comportement du menu de navigation en mode tablette */
         .box_nav{
             margin-left: 3%;
             margin-right: 3%;
+            width: 100%;
         }
-
+        /* Comportement du header en mode tablette */
         header { 
             margin-left: 3%;
             margin-right: 3%;
         }
-
+        /* Comportement de la box menu en mode tablette */
          .box_menu{
             font-size: 16px;
          }
+         /* Comportement du hover sur les items du menu en mode tablette */
+         .item_menu:hover{
+            border: none;
+            color: black;
+            padding-top: 0px;
+            margin-top: 0px;
+        }
 
         /* Comportement du bloc Populaire + Résultats */
         .pop_search{
@@ -30,9 +38,11 @@
             flex-direction: column; 
             gap: 25px;
         }
+        /* Comportement du bloc filters en mode tablette */
         .box_filters{
             width: 100%;
         }
+        /* Comportement du titre du bloc filtre en mode tablette */
         .titre_filters{
             font-size: 18px;
         }
@@ -78,7 +88,7 @@
             flex-direction: column;
             justify-content: space-between;
             margin-bottom: 5px;
-            width: 40%;
+            width: 60%;
             margin-top: -10px;
             margin-right: 3px;
             margin-left: 3px;
@@ -147,7 +157,15 @@
             object-fit:cover;
             border-radius: 15px 15px 0px 0px;
         }
-
+        .form_search{
+            display: flex;
+            flex-direction: row;
+            width: 60%;
+            min-width: 282px;
+            height: 49px;
+         
+            
+        }
       
  
 }
