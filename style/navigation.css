@@ -1,6 +1,4 @@
 
-
-
 /* Bloc de la barre des menus :"Navigation" + logo*/
     /* Bloc du menu de navigation */
     .box_nav {
@@ -9,9 +7,8 @@
             justify-content: space-between;
             align-items: center;
             width: 96%;
-            font-family: 'Raleway', sans-serif;   
+            font-family: 'Raleway', sans-serif;
     }
-
     /* Box comportement du logo dans le menu */
     .box_logo img{
         height: 19px;
@@ -21,22 +18,28 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        gap:50px;
+        height: 70px;
+        margin-top: 35px;
+    }
+    /* Comportement des items du menu */
+    .item_menu{
+        text-align: center;
+        width: 162px;
     }
     /* Box contenant les items du menu de navigation */
     .item_menu:hover{
-        border-top: solid rgba(0, 101, 252, 1) 3px;
-        padding-top: 22px;
-        margin-top: -25px;
+        border-top: solid rgba(0, 101, 252, 1) 2px;
+        width: 162px;
+        padding-top: 33px;
+        margin-top: -35px;
         color: rgba(0, 101, 252, 1);
     }
-
 /* Bloc des icônes Fontawesome */
     /* Etoile */
     .fa-star {
-            color: #0065FC;
+        color: #0065FC;
     }
     /* Étoiles grisée */
     .grise{
-            color: #F2F2F2;
+        color: #F2F2F2;
     }

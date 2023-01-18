@@ -3,17 +3,16 @@
     /* Footer */
    footer{
         background-color: #e8e8e8;
-        display: flex;
-        flex-direction: column;
         font-family: 'Raleway', sans-serif;
     }
     /* Bloc menu "Footer" */
     .box_footer{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        padding: 15px;
-        margin-bottom: 25px;
+        justify-content: space-between;
+        margin-left: 50px;
+        width: 75%;
+        padding-bottom: 35px;
     }
     /* Bloc organisation "Footer" */
     .menu_footer{
@@ -21,4 +20,12 @@
         display:flex;
         flex-direction: column;
         line-height: 2em;
+        align-items: flex-start;
+    }
+    /* Organisation du contenu du "Footer" */
+    .contenu_footer{
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }

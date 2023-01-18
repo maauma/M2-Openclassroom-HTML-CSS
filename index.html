@@ -3,9 +3,9 @@
 <!-- Début du html -->
     <html lang="fr">
         <head>
+            <!-- Titre et meta -->
             <meta charset="utf-8">
             <title>Mon agence de voyages</title>
-
             <!-- Mes feuilles de style CSS -->
             <link rel="stylesheet" href="style/navigation.css">
             <link rel="stylesheet" href="style/filters_style.css">
@@ -18,8 +18,6 @@
             <link rel="stylesheet" href="style/footer.css">
             <link rel="stylesheet" href="style/tablette.css">
             <link rel="stylesheet" href="style/mobile.css">
-            
-
             <!-- Polices & icones -->
             <script src="https://kit.fontawesome.com/fc91445628.js" crossorigin="anonymous"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
@@ -33,13 +31,13 @@
                         <img src="./Images_Booki/logo/Booki.png" alt="Logo_Booki">
                     </a>
                 </div>
-
                 <!-- Box menu de navigation -->
                 <div class="box_menu">
                     <a class="item_menu">Hébergements</a>
                     <a class="item_menu">Activités</a>
                 </div>
             </nav>
+
             <!--Header -->
             <header>
                 <!-- Bloc titre - Header -->
@@ -47,25 +45,24 @@
                     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
+
                 <!-- Box Formulaire - Header -->
                 <div class="search"> 
                     <!-- Formulaire de recherche -->
                         <div class="formulaire">
                             <form class="form_search" method="get" action="">
-                               <button class="bouton_loc">
+                                <button class="bouton_loc">
                                 <i class="fa-solid fa-location-dot"></i>
-                               </button>
-                                 
+                                </button>
                                 <input type="text" name="Ville" placeholder="Ex.: Marseille" value="Marseille, France">
                                 <input id="bouton_r" type="submit" value="Rechercher">
-
-                               <button class="bouton_icone">
+                                <button class="bouton_icone">
                                     <i class="fa-solid fa-magnifying-glass"></i>
-                               </button>
-                                
+                                </button>
                             </form>
                         </div>
                 </div>
+                
                 <!-- Bloc de filtres - Header -->
                 <div class="box_filters">
                     <!-- Titre bloc Filtres -->
@@ -97,16 +94,18 @@
                     </div>
                     
                 </div>
+
                 <!-- Afficher plus d'infos - Header -->
                 <div class="info_filtres">
                         <i class="fa-sharp fa-solid fa-circle-info"></i>
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </header>
+
             <!-- Contenu principal - Bloc recherche + Bloc populaire + Bloc activités-->
             <main class="contenu_principal">
                     <!-- Début du bloc résultats -->
-                    <div class="pop_search"> 
+                    <section class="pop_search"> 
                         <!-- Affichage des résultats de la recherche -->
                         <div class="recherche">
                             <div class="infos_recherches"> 
@@ -323,10 +322,10 @@
                                 </div>
                             </div>  
                         </div> 
-                    </div>
+                    </section>
 
                     <!-- Bloc - Activités à Marseille-->
-                    <div class="bloc_activites">
+                    <article class="bloc_activites">
                             <!-- Titre bloc activités -->
                             <div class="titre_activites">
                                 <h2>Activités à Marseille</h2>
@@ -361,7 +360,7 @@
                                         <h5>Parc national des Calanques</h5>
                                     </div>
                                 </div>
-                                <!-- Carte activité 3 -->
+                                <!-- Carte activité 4 -->
                                 <div class="card_activites">
                                     <div class="image_activite">
                                     <img src="./Images_Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Vue sur Notre-Dame-de-la-Garde à Marseille">
@@ -370,8 +369,8 @@
                                         <h5>Notre-Dame-de-la-Garde</h5>
                                     </div>
                                 </div> 
-                            </div>    
-                    </div>       
+                            </div>
+                    </article>    
             </main>
             <!-- Footer -->
             <footer>
@@ -379,22 +378,34 @@
                 <div class="box_footer">
                     <!-- Bloc footer menu 'À propos' -->
                     <div class="menu_footer">
-                        <h4>A propos</h4>
-                        <a>Fonctionnement du site</a>
-                        <a>Conditions générales</a>
-                        <a>Données et confidentialité</a>
+                        <div class="titre_footer">
+                            <h4>A propos</h4>
+                        </div>
+                        <div class="contenu_footer">
+                            <a>Fonctionnement du site</a>
+                            <a>Conditions générales</a>
+                            <a>Données et confidentialité</a>
+                        </div>
                     </div>
                     <!-- Bloc footer menu 'Nos hébergements' -->
                     <div class="menu_footer">
-                        <h4>Nos hébérgements</h4>
-                        <a>Charte qualité</a>
-                        <a>Proposer votre hôtel</a>
+                        <div class="titre_footer">
+                            <h4>Nos hébérgements</h4>
+                        </div>
+                        <div class="contenu_footer">
+                            <a>Charte qualité</a>
+                            <a>Proposer votre hôtel</a>
+                        </div>
                     </div>
                     <!-- Bloc footer menu 'Assistance' -->
                     <div class="menu_footer">
-                        <h4>Assistance</h4>
+                        <div class="titre_footer">
+                            <h4>Assistance</h4>
+                        </div>
+                       <div class="contenu_footer">
                         <a>Centre d'aide</a>
                         <a>Nous contacter</a>
+                       </div>
                     </div>
                 </div>
             </footer>

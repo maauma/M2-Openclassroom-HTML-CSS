@@ -1,64 +1,61 @@
 
 /* Comportement du site en version "Mobile" */
-@media screen and (max-width:520px) {
+@media screen and (max-width:768px) {
 
 /* Comportement général du site en version mobile */
     /* Header sur mobile */
-    header{
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+    
     /* Body sur mobile */
     body{
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: 0px;
+       margin:0px;
+       padding: 0px;
     }
-
-    
+    header {
+        margin-left: 20px;
+    }
     .box_nav {
         display: flex;
         flex-direction: column;
-       justify-content: flex-start;
+        justify-content: flex-start;
         width: auto;
         height: auto;
         font-family: 'Raleway', sans-serif;   
-       margin-top: 20px;
+        margin-top: 20px;
     }
 
-    
 /* Comportement du bloc Navigation sur Mobile */
     /* Box contenant le logo */
     .box_logo{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 25px;
     
-
     }
     /* Comportement de l'image de logo */
     .box_logo img{
-    height: 19px;
+        height: 19px;
     }
     /* Bloc menu "Navigation" */
     .box_menu{
         display: flex;
         flex-direction: row;
-    justify-content: space-around;
-    padding-bottom:25px;
-    border-bottom: solid rgb(242, 242, 242, 0.6) 3px;
-    width: 110%;
-    
-    
-
+        justify-content: space-around;
+        border-bottom: solid rgb(242, 242, 242, 0.6) 2px;
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
     }
     /* Comportement au survol du menu */
     .item_menu:hover{
-        border-top: none;
-
-        
+        border-top:none;
+       }
+    .box_menu .item_menu:hover{
+        color:rgba(0, 101, 252, 1) 2px;
+        border-bottom: solid rgba(0, 101, 252, 1) 2px;
+        width: 162px;
+            
     }
 
 
@@ -70,41 +67,33 @@
         flex-direction: row;
         justify-content: space-between;
         margin-left: 10px;
-        margin-right: 10px;
-        
-            
-                
-                
-            
+        margin-right: 10px;    
     }
     /* Titre et sous titre "Formulaire de recherche" en version mobile*/
     .infos{
-                font-family: 'Raleway', sans-serif;
-                margin: 5px;
-                line-height: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        margin: 5px;
+        line-height: 1.5em;
     }
-
 
 /* PARTIE FILTRES VERSION MOBILE */
     /* Comportement des "Filtres" en version mobile */
     .box_filters{
-            margin-top: 10px;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
-            height: 250px;
-            
-            align-items: flex-start;
+        height: 250px;
+        width: 100%;
+        align-items: flex-start;
     }
     /* Bloc des cards "Filtres" en version mobile */
     .ligne_filters{
-            margin-top: -20px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            width: 100%;
-
+        margin-top: -20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
     }
-
     .info_filtres{
         display: flex;
         flex-direction: row;
@@ -117,10 +106,7 @@
         margin-bottom: 5px;
         font-size: 16px;
         font-weight: 200;
-        
-        
     }
-
     .filter{
         gap: 5px;
         width: 75%;
@@ -128,37 +114,25 @@
     }
     /* Cards "Filtres" en version mobile */
     .filter a{
-            font-size: 12px;
-            
-           
-            
-            
+        font-size: 12px;    
     }
-    /* Titre des "Filtres" en version mobile */
-   
-
-
+    
 /* ORGANISATION DU BLOC DE "RÉSULTATS" EN VERSION MOBILE */
     /* Conteneur des cards hébergements en version mobile */
     .bloc_search{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            background-color: white;
-            margin: auto;
-            align-items: center;
-            
-        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        margin: auto;
+        align-items: center;
     }
     /* Conteneur de la boite "Recherche" en version mobile */
     .recherche{
-            width: 100%;
-            gap: 2%;
-            order: 2;
-            background-color: white;
-            
-        
-        
+        width: 100%;
+        gap: 2%;
+        order: 2;
+        background-color: white;
     }
     /* Card recherche en version mobile*/
     .card_search{
@@ -167,41 +141,33 @@
         padding: 0.3em;
         background-color: white;
         box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-        
         width: 85%;
         height: 199px;
         margin-bottom: 5%;
-        
-    
-        
     }
     /* Afficher plus en version mobile */
     .aplus{
         display:none;
     }
 
-
 /* ORGANISATION DU BLOC "POPULAIRE" EN VERSION MOBILE */
     /* Organisation des cards du bloc "Populaire" en version mobile*/
     .orga_pop{
-            display: flex;
-            flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     /* Organisation Cards "Populaire" en version mobile */
     .card_pop{
-            padding: 5px;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-        
-            background-color: white;
-            box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-            border-radius: 15px;
-            margin-top: 5%;
-            width: 100%;
-            height: 144px;
-            
-            
+        padding: 0.3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: white;
+        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+        border-radius: 15px;
+        margin-top: 5%;
+        width: 97%;
+        height: 144px;
     }
     .bloc_pop{
         font-size: 1em;
@@ -210,50 +176,50 @@
     }
     /* Organisation textes + étoiles Cards "Populaire" en version mobile */
     .contenu_card1{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-bottom: 5px;
-            width: 40%;
-        
-            margin-left: 20px;
-            margin-top: -10px;
-            height: 100%;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        width: 50%;
+        line-height: 1em;
+        margin-left: 20px;
+        margin-top: -10px;
+        height: 100%;
+    }
+    .prix{
+        margin-top: -25px;
     }
 
 
 /* BLOC ACTIVITES */
     /* Titre du bloc Activités */
     .titre_activites{
-            width: 50%;
-            margin-left: 15%;
+        width: 50%;
+        margin-left: 5%;
         }
     /* Comportement du bloc contenant les cards Activités */
     .ligne_activites{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 100%;
-                margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
     }
     /* Composition d'une card pour le bloc Activités */
     .card_activites {
-                border-radius: 20px;
-                box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-                width: 90%;
-                height: 190px;
-                margin-bottom: 15px;
+        border-radius: 20px;
+        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
+        width: 90%;
+        height: 190px;
+        margin-bottom: 15px;
     }
     /* Images d'illustration pour les cartes activités en version mobile */
     .card_activites img{
-                
-                width:100%;
-                height: 134px;
-                object-fit:cover;
-                border-radius: 15px 15px 0px 0px;
+        width:100%;
+        height: 134px;
+        object-fit:cover;
+        border-radius: 15px 15px 0px 0px;
     }
-
 
 /* COMPORTEMENT DU FOOTER EN VERSION MOBILE */
     /* Bloc comportement footer en version mobile */
@@ -261,8 +227,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 5px;
+        width: 100%;
         margin-bottom: 25px;
+        margin-left: 5%;
     }
     /* Bloc menu footer en version mobile */
     .menu_footer{
@@ -270,7 +237,6 @@
             display:flex;
             flex-direction: column;
             line-height: 2em;
-            margin-left: 10%;
     }
     /* Comportement du "Footer" sur mobile */
     footer{
@@ -279,15 +245,24 @@
         flex-direction: column;
         font-family: 'Raleway', sans-serif;
     }
-
     #bouton_r {
         display: none;
     }
-
+      /* Comportement du bouton contenant la loupe */
     .bouton_icone{
-        display:inline;
+        display: inline;
+        background-color: #0065FC;
+        font-family: 'Raleway', sans-serif;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color: white;
+        font-size: 1em;
+        font-weight: 500;
+        width: 49px;
+        height: 45px;
+        border: none;
+        text-align:center;       
     }
-
     form [name="Ville"] {
         color:black;
         font-family: 'Raleway', sans-serif;
@@ -295,8 +270,8 @@
         font-size: 17px;
         width: 100%;
         padding-left: 5px;
-     
     }
+    
 
 
 }

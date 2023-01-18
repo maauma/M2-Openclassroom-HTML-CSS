@@ -32,8 +32,6 @@
         justify-content:space-between;
         align-items: center;
         height: 80%;
-
-    
     }
     /* Organisation Cards "Populaire"" */
     .card_pop{
@@ -46,7 +44,6 @@
         width: 80%;
         height: 144px;
         overflow: auto;
-        
     }
     /* Organisation textes + étoiles Cards "Populaire" */
     .contenu_card1{
@@ -55,10 +52,9 @@
         justify-content: space-between;
         margin-bottom: 3px;
         width: 60%;
-        margin-left: 10px;
+        margin-left: 20px;
         margin-top: -15px;
-        margin-right: 20px;
-        
+        margin-right: 10px;
     }
     /*Image illustration pour les Cards "Populaire"*/
     .card_pop img{
@@ -68,8 +64,6 @@
         border-bottom-left-radius: 15px;
         object-fit:cover;
     }
- 
- 
     /* Prix de la nuit cards "Populaire" */
     .prix{
         margin-top: -35%;   

@@ -1,7 +1,7 @@
 
 /* MEDIA QUERIES POUR TABLETTE */
 
-@media screen and (max-width:1024px) {
+@media screen  and (max-width:1121px) {
     /* Comportement global en mode tablette */
         /* Comportement du body en mode tablette */
         body{
@@ -15,25 +15,28 @@
             margin-right: 3%;
         }
 
-        header { margin-left: 3%;
-            margin-right: 3%;}
-
-
+        header { 
+            margin-left: 3%;
+            margin-right: 3%;
+        }
 
          .box_menu{
-            font-size: 19px;
+            font-size: 16px;
          }
+
         /* Comportement du bloc Populaire + Résultats */
         .pop_search{
             display: flex;
             flex-direction: column; 
             gap: 25px;
         }
-
-        .titre_filters{
-            font-size: 21px;
+        .box_filters{
+            width: 100%;
         }
-    
+        .titre_filters{
+            font-size: 18px;
+        }
+
     /* Comportement du bloc populaire en version tablette*/
         /* Titre du bloc populaire */
         .infos_pop{
@@ -44,6 +47,7 @@
             margin-right:5%;
             justify-content: space-between; 
         }
+
         /* Bloc populaire : Titre +  en version tablette */
         .bloc_pop{
             display: flex;
@@ -51,21 +55,23 @@
             justify-content: space-between;
             border-radius: 15px;
             width:100%;
-        height: auto;
+            height: auto;
             margin-top: 25px;
             margin-right: 5%;
             font-size: 0.9em;
             padding-bottom: 50px;
         }
+
         /* Comportement de la boite populaire */
         .orga_pop{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 25px;
-        margin-right: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 25px;
+            margin-right: 25px;
         }
+
         /* Découpage des textes d'une card Populaire */
         .contenu_card1{
             display: flex;
@@ -74,20 +80,27 @@
             margin-bottom: 5px;
             width: 40%;
             margin-top: -10px;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 3px;
+            margin-left: 3px;
             height: 100%;
         }
+
         /* Découpage d'une card populaire */
         .card_pop{
             width: 30%;
             height: 144px;
         }
+        
         /* Comportement d'une image pour les card populaires */
         .card_pop img {
             width: auto;
             max-width: 106px;
             height: 144px;
+        }
+
+        .prix{
+            font-size: 14px;
+            margin-bottom: -10px;
         }
 
     /* Comportement du bloc résultats en version tablette */
@@ -134,5 +147,7 @@
             object-fit:cover;
             border-radius: 15px 15px 0px 0px;
         }
+
+      
  
 }

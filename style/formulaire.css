@@ -1,6 +1,5 @@
 
 /* Feuille CSS pour le "Formulaire de recherche" */
-
     /* Titre et sous titre "Formulaire de recherche" */
     .infos{
         font-family: 'Raleway', sans-serif;
@@ -8,31 +7,20 @@
     }
     /* Bloc contenant le "Formulaire de recherche" */
     .search {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    height: 40px;
-    
-    
-   
-    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        height: 40px;
     }
     /* Boite contenant le formulaire de recherche */
     .formulaire{
-           
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-       
         padding: 15px 10px 15px 10px;
-        
         margin-top: -10px;
         font-size: 16px;
         margin-left: -20px;
-        
-         
-         
-      
      }
     /* Formulaire de recherche */
     .form_search{
@@ -40,9 +28,7 @@
         flex-direction: row;
         width: 96%;
         margin-left: 0px;
-       
         
-       
     }
     /* Bouton rechercher */
     #bouton_r{
@@ -51,15 +37,15 @@
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         color: white;
-        
         font-size: 1em;
         font-weight: 500;
         width: auto;
         height: 45px;
         border: none;
         text-align:center;
+        padding-right: 10px;
+        padding-left: 10px;
     }
-
     /*Comportement du texte dans le formulaire de recherche*/
     form [name="Ville"] {
         color:black;
@@ -68,33 +54,14 @@
         font-size: 17px;
         width: 60%;
         padding-left: 5px;
-     
+        border:solid 1px rgb(242, 242, 242, 0.8);
+        border-right:none;
+        border-left: none;
     }
-
-
-
-   
-        
-    
-
-    .bouton_icone{
-        background-color: #0065FC;
-        font-family: 'Raleway', sans-serif;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        color: white;
-        
-        font-size: 1em;
-        font-weight: 500;
-        width: 49px;
-        height: 45px;
-        border: none;
-        text-align:center;       
-    }
-
+  
+    /* Comportement du bouton contenant la localisation directe */
     .bouton_loc{
         background-color:rgb(242, 242, 242, 1);
-
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         color: white;
@@ -103,14 +70,12 @@
         width: 49px;
         height: 45px;
         border: none;
-        text-align:center; 
     }
-
+    /* Comportement icone localisation */
     .fa-location-dot{
         color:black;
     }
-    
-
+    /* Comportement bouton  */
     .bouton_icone {
        display: none;
     }

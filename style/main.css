@@ -4,9 +4,13 @@
 
     /* Header */
     header{
-        margin-top: 50px;
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    body{
+        max-width: 1400px;
+        margin: auto;
     }
 
     footer{
@@ -19,10 +23,7 @@
     .box_nav {
         margin-left: 2.5%;
         margin-right: 2.5%;
-        margin-top: 35px;
     }
-
-   
 
 /* Main */
     /* Maxi conteneur avec le bloc résultats + le bloc populaire + le bloc activités*/
