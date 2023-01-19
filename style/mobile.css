@@ -2,22 +2,12 @@
 /* Comportement du site en version "Mobile" */
 @media screen and (max-width:768px) {
 
-/* Comportement général du site en version mobile */
-    /* Header sur mobile */
-    
-    /* Body sur mobile */
-    body{
-       margin:0px;
-       padding: 0px;
-    }
-    header {
-        margin-left: 20px;
-    }
+
     .box_nav {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: auto;
+        width: 100%;
         height: auto;
         font-family: 'Raleway', sans-serif;   
         margin-top: 20px;
@@ -26,12 +16,10 @@
 /* Comportement du bloc Navigation sur Mobile */
     /* Box contenant le logo */
     .box_logo{
-        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-bottom: 25px;
-    
     }
     /* Comportement de l'image de logo */
     .box_logo img{
@@ -47,6 +35,11 @@
         height: 30px;
         margin-top: 10px;
     }
+
+    .item_menu{
+        width: 50%;
+    }
+
     /* Comportement au survol du menu */
     .item_menu:hover{
         border-top:none;
@@ -54,8 +47,10 @@
     .box_menu .item_menu:hover{
         color:rgba(0, 101, 252, 1) 2px;
         border-bottom: solid rgba(0, 101, 252, 1) 2px;
-        width: 162px;
+        width: 50%;
     }
+
+   
 
 
 /* Box du Formulaire de recherche sur mobile */
@@ -64,8 +59,6 @@
         display: flex;
         width: 100%; 
         flex-direction: row;
-        justify-content: space-between;
-       
     }
 
     .form_search{
@@ -73,9 +66,9 @@
     }
     
     .search{
-       
         height: 55px;
     }
+
     /* Titre et sous titre "Formulaire de recherche" en version mobile*/
     .infos{
         font-family: 'Raleway', sans-serif;
@@ -91,11 +84,12 @@
         flex-direction: column;
         height: 250px;
         width: 100%;
+        justify-content: flex-start;
         align-items: flex-start;
-        margin-left: 0px;
-        margin-right: 0px;
-        
+       
     }
+
+
     /* Bloc des cards "Filtres" en version mobile */
     .ligne_filters{
         margin-top: -20px;
@@ -103,7 +97,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         width: 100%;
-        justify-content: flex-end;
+        align-items: center;
+        justify-content: flex-start;
+        
     }
     .info_filtres{
         display: flex;
@@ -112,94 +108,122 @@
         align-items: center;
         font-family: 'Raleway', sans-serif;
         gap: 15px;
-        width: 85%;
+        width: 100%;
         margin-top: -40px;
         margin-bottom: 5px;
-     
         font-weight: 200;
     }
+
     .filter{
         gap: 5px;
-        width: 75%;
-        padding-left: 10px;
+       
+        
     }
    
-    
-/* ORGANISATION DU BLOC DE "RÉSULTATS" EN VERSION MOBILE */
-    /* Conteneur des cards hébergements en version mobile */
-    .bloc_search{
-        display: flex;
-        flex-direction: column;
+    .recherche {
+       
         width: 100%;
-        background-color: white;
-        margin: auto;
-        align-items: center;
-    }
-    /* Conteneur de la boite "Recherche" en version mobile */
-    .recherche{
-        width: 100%;
-        gap: 2%;
+        height: auto;
         order: 2;
+        gap: 15px;
+        justify-content: space-between;
+        padding-bottom: 15px;
         background-color: white;
-    }
-    /* Card recherche en version mobile*/
-    .card_search{
-        border: solid white 3px;
-        border-radius: 15px;
-        padding: 0.3em;
-        background-color: white;
-        box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-        width: 85%;
-        height: 199px;
-        margin-bottom: 5%;
-    }
-    /* Afficher plus en version mobile */
-    .aplus{
-        display:none;
     }
 
+    .recherche h2{
+        margin-left:3%;
+    }
+
+    .bloc_search{
+     
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .card_search{
+        width: 96%;
+    }
+
+    
+
+    /* Afficher plus en version mobile */
+   
+
 /* ORGANISATION DU BLOC "POPULAIRE" EN VERSION MOBILE */
+
+    .pop_search{
+        display: flex;
+        flex-direction: column;
+    }
     /* Organisation des cards du bloc "Populaire" en version mobile*/
     .orga_pop{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        
+        
+        height: auto
     }
     /* Organisation Cards "Populaire" en version mobile */
     .card_pop{
         padding: 0.3em;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        align-content: center;
         background-color: white;
         box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
         border-radius: 15px;
         margin-top: 5%;
-        width: 97%;
+        width: 96%;
         height: 144px;
     }
-    .bloc_pop{
-        font-size: 1em;
-        border-radius: 0px;
-        width: 100%;
-    }
-    /* Organisation textes + étoiles Cards "Populaire" en version mobile */
     .contenu_card1{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-bottom: 5px;
-        width: 50%;
-        line-height: 1em;
-        margin-left: 20px;
         margin-top: -10px;
         height: 100%;
+        
+        margin-left: 20px;
+        width: 70%;
+        font-size: 15px;
+        overflow:auto;
+       
     }
+
+    .contenu_card1 h4{
+        color: red;
+        font-size: 19px;
+    }
+
     .prix{
-        margin-top: -25px;
+        margin-top:0px;
     }
+
+    .bloc_pop{
+        
+        border-radius: 0px;
+        width: 100%;
+    
+
+    }
+
+    .pop_search{
+        margin-left: 0px;
+        margin-right: 0px;}
+    /* Organisation textes + étoiles Cards "Populaire" en version mobile */
+  
+   
 
 
 /* BLOC ACTIVITES */
+.bloc_activites{
+    
+    width: 100%;
+    margin-left: 0%;
+}
     /* Titre du bloc Activités */
     .titre_activites{
         width: 50%;
@@ -207,19 +231,23 @@
         }
     /* Comportement du bloc contenant les cards Activités */
     .ligne_activites{
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin-bottom: 50px;
+      
+
     }
     /* Composition d'une card pour le bloc Activités */
     .card_activites {
         border-radius: 20px;
         box-shadow: 0px 6px 28px 2px rgba(0,0,0,0.2);
-        width: 90%;
+        width: 86%;
         height: 190px;
         margin-bottom: 15px;
+        background-color: white;
     }
     /* Images d'illustration pour les cartes activités en version mobile */
     .card_activites img{
@@ -235,7 +263,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 100%;
+        width: 96%;
         margin-bottom: 25px;
         margin-left: 5%;
     }
@@ -279,6 +307,7 @@
         width: 100%;
         padding-left: 5px;
     }
+    
     
 
 

@@ -5,22 +5,28 @@
         border-radius: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 65%;
         height: 625px;
         background-color: rgb(242, 242, 242, 0.6);
+       
+       
     }
      /* Titre Hébergements */
      .infos_recherches{ 
-        margin-left: 5%;
-        margin-top: 15px;
+       margin-left: 3%;
     }
     /* Afficher plus */
     .aplus{
         font-size: 1.2em;
-        margin-bottom: 3%;
-        margin-left: 5%;
-        font-weight: 600;
+       margin-bottom: 20px;
+       margin-left: 5%;
+       height: 5%;
+    }
+
+    .aplus a{
+        text-decoration: none;
+        color: black;
     }
 
 /* CARDS RESULTATS */
@@ -29,11 +35,18 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 3%;
+        margin-right: 3%;
+        gap: 15px;
+        height: 80%;
+       
+        align-items: flex-start;
     }
+
+    .infos_recherches{
+        height: 15%;
+    }
+    
     /* Card recherche */
     .card_search{ 
         border-radius: 15px;
@@ -43,9 +56,8 @@
         line-height: 0.01em;
         width: auto;
         height: 199px;
-        margin-bottom: 10%;
-        margin-right: 15px;
-        margin-left: 15px;
+        text-decoration: none;
+        color:black;
     }
    /* Comportement des images dans les cards recherche */
     .card_search img{

@@ -3,38 +3,41 @@
 /* Position et marges du Header en version desktop */
 
     /* Header */
-    header{
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+
 
     body{
         max-width: 1400px;
-        margin: auto;
+    margin: auto;
     }
 
-    footer{
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+
+header{
+    margin-left: 50px;
+        margin-right: 50px;
+}
+
+.box_nav{
+    margin-left: 50px;
+        margin-right: 50px;
+}
+  
     
 /* Position et marges du menu de navigation en version desktop */
     /* Menu de navigation */
-    .box_nav {
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
+ 
 
 /* Main */
     /* Maxi conteneur avec le bloc résultats + le bloc populaire + le bloc activités*/
     .contenu_principal{
         font-family: 'Raleway', sans-serif;  
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        width: 96%;
+      
+    
+     
     }
     /* Conteneur du bloc résultats + populaires */
     .pop_search{
+        margin-left: 50px;
+        margin-right: 50px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

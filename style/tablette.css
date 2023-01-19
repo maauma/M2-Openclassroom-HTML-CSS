@@ -1,14 +1,9 @@
 
 /* MEDIA QUERIES POUR TABLETTE */
-
-@media screen  and (max-width:1121px) {
+@media screen  and (max-width:969px) {
     /* Comportement global en mode tablette */
-        /* Comportement du body en mode tablette */
-        body{
-            
-            margin-left: 3%;
-            margin-right: 3%;
-        }
+
+  
         /* Comportement du menu de navigation en mode tablette */
         .box_nav{
             margin-left: 3%;
@@ -87,17 +82,24 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin-bottom: 5px;
-            width: 60%;
-            margin-top: -10px;
+            font-size: 14px;
+            width: 70%;
+            margin-bottom: 0;
             margin-right: 3px;
             margin-left: 3px;
             height: 100%;
+            
+        }
+
+        .bloc_texte_pop{
+        
+            height:90%;
+            
         }
 
         /* Découpage d'une card populaire */
         .card_pop{
-            width: 30%;
+            width: 29%;
             height: 144px;
         }
         
@@ -119,7 +121,7 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: auto;
+            height: 625px;
             justify-content: space-around;
         }
 
