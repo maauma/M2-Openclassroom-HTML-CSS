@@ -21,6 +21,12 @@
         margin-bottom: 3%;
         margin-left: 5%;
         font-weight: 600;
+       
+    }
+
+    .aplus a {
+        color:black;
+        text-decoration: none;
     }
 
 /* CARDS RESULTATS */
@@ -46,6 +52,8 @@
         margin-bottom: 10%;
         margin-right: 15px;
         margin-left: 15px;
+        color:black;
+        text-decoration: none;
     }
    /* Comportement des images dans les cards recherche */
     .card_search img{

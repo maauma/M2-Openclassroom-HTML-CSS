@@ -8,6 +8,12 @@
             align-items: center;
             width: 96%;
             font-family: 'Raleway', sans-serif;
+            
+    }
+
+    .box_nav a {
+        color:black;
+        text-decoration: none;
     }
     /* Box comportement du logo dans le menu */
     .box_logo img{
