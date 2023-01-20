@@ -11,7 +11,7 @@
             <link rel="stylesheet" href="style/filters_style.css">
             <link rel="stylesheet" href="style/search_style.css">
             <link rel="stylesheet" href="style/formulaire.css">
-            <link rel="stylesheet" href="style/global.css">
+            <link rel="stylesheet" href="style/main.css">
             <link rel="stylesheet" href="style/bloc_populaire.css">
             <link rel="stylesheet" href="style/bloc_activites.css">
             <link rel="stylesheet" href="style/resultats.css">
@@ -33,8 +33,8 @@
                 </div>
                 <!-- Box menu de navigation -->
                 <div class="box_menu">
-                    <a href="#bloc_search" class="item_menu">Hébergements</a>
-                    <a href="#bloc_activites" class="item_menu">Activités</a>
+                    <a class="item_menu">Hébergements</a>
+                    <a class="item_menu">Activités</a>
                 </div>
             </nav>
 
@@ -50,7 +50,7 @@
                 <div class="search"> 
                     <!-- Formulaire de recherche -->
                         <div class="formulaire">
-                            <form class="form_search" method="get" action="#">
+                            <form class="form_search" method="get" action="">
                                 <button class="bouton_loc">
                                 <i class="fa-solid fa-location-dot"></i>
                                 </button>
@@ -74,22 +74,22 @@
                         <!-- Filtre 1 - Économique -->
                         <div class="filter"> 
                             <i class="fa-solid fa-money-bill-wave "></i>
-                            <a href="#">Économique</a>
+                            <a>Économique</a>
                         </div>
                         <!-- Filtre 2 - Familial -->
                         <div class="filter">
                             <i class="fa-sharp fa-solid fa-person"></i>
-                            <a href="#">Familial</a>
+                            <a>Familial</a>
                         </div>
                         <!-- Filtre 3 - Romantique -->
                         <div class="filter">
                             <i class="fa-sharp fa-solid fa-heart"></i>
-                            <a href="#">Romantique</a>
+                            <a>Romantique</a>
                         </div>
                         <!-- Filtre 4 - Animaux autorisés -->
                         <div class="filter">
                             <i class="fa-solid fa-dog"></i>
-                            <a href="#">Animaux autorisés</a>
+                            <a>Animaux autorisés</a>
                         </div>
                     </div>
                     
@@ -107,22 +107,22 @@
                     <!-- Début du bloc résultats -->
                     <section class="pop_search"> 
                         <!-- Affichage des résultats de la recherche -->
-                        <div id="bloc_search" class="recherche">
+                        <div class="recherche">
                             <div class="infos_recherches"> 
                                 <h2>Hébergements à Marseille</h2>
                             </div>
 
                             <div class="bloc_search">
                                     <!-- Carte 1er Hôtel recherche -->
-                                    <a class="card_search" href="#">
+                                    <div class="card_search">
 
                                         <div class="image1"> 
                                             <img src="./Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Vue sur une chambre de l'Auberge la Canebière à Marseille">
                                         </div>
 
                                         <div class="Infos_hotel1">
-                                                 <h3>Auberge la canebière</h3>
-                                                <p>Nuit à partir de 25€</p>
+                                            <h4>Auberge la canebière</h4>
+                                            <p>Nuit à partir de 25€</p>
                                         </div>
                                     
                                         <div class="etoiles_1">
@@ -132,16 +132,16 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>
-                                    </a>
+                                    </div>
                                     <!-- Carte 2ème Hôtel recherche -->
-                                    <a class="card_search" href="#">
+                                    <div class="card_search">
 
                                         <div class="image2"> 
                                             <img src="./Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Vue sur une chambre de l'Hôtel du port à Marseille">
                                         </div>
 
                                         <div class="Infos_hotel2">
-                                            <h3>Hôtel du port</h3>
+                                            <h4>Hôtel du port</h4>
                                             <p>Nuit à partir de 52€</p>
                                         </div>
                                     
@@ -152,16 +152,16 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>  
-                                    </a>
+                                    </div>
                                     <!-- Carte 3ème Hôtel recherche -->
-                                    <a class="card_search" href="#">
+                                    <div class="card_search">
 
                                         <div class="image3"> 
                                             <img src="./Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Vue sur une chambre de l'hôtel Les mouettes à Marseille">
                                         </div>
 
                                         <div class="Infos_hotel3">
-                                            <h3>Hôtel Les mouettes</h3>
+                                            <h4>Hôtel Les mouettes</h4>
                                             <p>Nuit à partir de 76€</p>
                                         </div>
                                     
@@ -172,16 +172,16 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>
-                                    </a>  
+                                    </div>  
                                     <!-- Carte 4ème Hôtel recherche -->
-                                    <a class="card_search" href="#">
+                                    <div class="card_search">
 
                                         <div class="image4"> 
                                             <img src="./Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Vue sur une chambre de l'hôtel de la mer à Marseille">
                                         </div>
 
                                         <div class="Infos_hotel4">
-                                            <h3>Hôtel de la mer</h3>
+                                            <h4>Hôtel de la mer</h4>
                                             <p>Nuit à partir de 46€</p>
                                         </div>
                                     
@@ -194,16 +194,16 @@
                                                 <i class="fa-solid fa-star grise"></i>
                                             </div>
                                         </div>  
-                                    </a>  
+                                    </div>  
                                     <!-- Carte 5ème Hôtel recherche -->
-                                    <a class="card_search" href="#">
+                                    <div class="card_search">
 
                                         <div class="image5"> 
                                             <img src="./Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Vue sur une chambre de l'auberge le panier à Marseille">
                                         </div>
 
                                         <div class="Infos_hotel5">
-                                            <h3>Auberge le Panier</h3>
+                                            <h4>Auberge le Panier</h4>
                                             <p>Nuit à partir de 23€</p>
                                         </div>
                                     
@@ -214,16 +214,16 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>
-                                    </a>  
+                                    </div>  
                                     <!-- Carte 6ème Hôtel recherche -->
-                                    <a class="card_search" href="#">
+                                    <div class="card_search">
 
                                         <div class="image6"> 
                                             <img src="./Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Vue sur une chambre de l'hôtel Chez Amina à Marseille">
                                         </div>
 
                                         <div class="Infos_hotel6">
-                                        <h3>Hôtel Chez Amina</h3>
+                                        <h4>Hôtel Chez Amina</h4>
                                             <p>Nuit à partir de 96€</p>
                                         </div>
                                     
@@ -234,11 +234,11 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>
-                                    </a>  
+                                    </div>  
                             </div>
 
                             <div class="aplus">
-                                <a href="#">Afficher plus</a>
+                                <a>Afficher plus</a>
                             </div>
                         </div>
                         
@@ -252,19 +252,17 @@
                             <!-- Box des cards - Bloc populaire -->
                             <div class="orga_pop">
                                 <!-- Carte 1er Hotel populaire-->
-                                <a class="card_pop" href="#">
+                                <div class="card_pop">
                                     <div class="image_card1">
                                         <img src="./Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Vue sur une chambre de l'hôtel Le soleil du matin à Marseille">
                                     </div>
 
                                     <div class="contenu_card1">
-                                        <div class="bloc_texte_pop">
-                                            <div class="nom_hotel_pop">
-                                                <h3>Hôtel Le soleil du matin</h3>
-                                            </div>
-                                            <div class="prix">
-                                                <p>Nuit à partir de 128€</p>
-                                            </div>
+                                        <div class="nom_hotel_pop">
+                                            <h4>Hôtel Le soleil du matin</h4>
+                                        </div>
+                                        <div class="prix">
+                                            <p>Nuit à partir de 128€</p>
                                         </div>
                                             
                                         <div class="etoiles_1">
@@ -275,21 +273,19 @@
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>
                                     </div>   
-                                </a>
+                                </div>
                                 <!-- Carte 2ème hôtel populaire -->
-                                <a class="card_pop" href="#">
+                                <div class="card_pop">
                                         <div class="image_card1">
                                             <img src="./Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Vue sur une chambre de la chambre d'^hotes Au coeur de l'eau à Marseille">
                                         </div>
 
                                         <div class="contenu_card1">
-                                            <div class="bloc_texte_pop">
-                                                <div class="nom_hotel_pop">
-                                                    <h3>Chambres d'hôtes Au coeur de l'eau</h3>
-                                                </div>
-                                                <div class="prix">
-                                                    <p>Nuit à partir de 71€</p>
-                                                </div>
+                                            <div class="nom_hotel_pop">
+                                                <h4>Chambres d'hôtes Au coeur de l'eau</h4>
+                                            </div>
+                                            <div class="prix">
+                                                <p>Nuit à partir de 71€</p>
                                             </div>
                                                 
                                             <div class="etoiles_1">
@@ -300,21 +296,19 @@
                                                 <i class="fa-solid fa-star grise"></i>
                                             </div>
                                         </div>   
-                                </a>
+                                </div>
                                 <!-- Carte 3ème hôtel populaire-->
-                                <a class="card_pop" href="#">
+                                <div class="card_pop">
                                     <div class="image_card1">
                                         <img src="./Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Vue sur une chambre de l'hôtel bleu et blanc à Marseille">
                                     </div>
 
                                     <div class="contenu_card1">
-                                        <div class="bloc_texte_pop">
                                         <div class="nom_hotel_pop">
-                                            <h3>Hôtel Bleu et Blanc</h3>
+                                            <h4>Hôtel Bleu et Blanc</h4>
                                         </div>
                                         <div class="prix">
                                             <p>Nuit à partir de 68€</p>
-                                        </div>
                                         </div>
                                             
                                         <div class="etoiles_1">
@@ -324,15 +318,14 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star grise"></i>
                                         </div>
-                                        
                                     </div>   
-                                </a>
+                                </div>
                             </div>  
                         </div> 
                     </section>
 
                     <!-- Bloc - Activités à Marseille-->
-                    <article id="bloc_activites" class="bloc_activites">
+                    <article class="bloc_activites">
                             <!-- Titre bloc activités -->
                             <div class="titre_activites">
                                 <h2>Activités à Marseille</h2>
@@ -340,42 +333,42 @@
                             <!-- Affichage résultats des activités -->
                             <div class="ligne_activites">
                                 <!-- Card activité 1 -->
-                                <a href="#" class="card_activites">
+                                <div class="card_activites">
                                     <div class="image_activite">
                                         <img src="./Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vue sur le vieux port de Marseille">
                                     </div>
 
                                     <div class="titre_card_activites">
-                                        <h4>Vieux-Port</h4>
+                                        <h5>Vieux-Port</h5>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- Carte activité 2 -->
-                                <a href="#" class="card_activites">
+                                <div class="card_activites">
                                     <div class="image_activite">
                                         <img src="./Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Vue sur le Fort de Pomègues">
                                     </div>
                                     <div class="titre_card_activites">
-                                        <h4>Fort de Pomègues</h4>
+                                        <h5>Fort de Pomègues</h5>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- Card activité 3 -->
-                                <a href="#" class="card_activites">
+                                <div class="card_activites">
                                     <div class="image_activite">
                                         <img src="./Images_Booki/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Vue sur le parc national des Calanques">
                                     </div>
                                     <div class="titre_card_activites">
-                                        <h4>Parc national des Calanques</h4>
+                                        <h5>Parc national des Calanques</h5>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- Carte activité 4 -->
-                                <a href="#" class="card_activites">
+                                <div class="card_activites">
                                     <div class="image_activite">
                                     <img src="./Images_Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Vue sur Notre-Dame-de-la-Garde à Marseille">
                                     </div>
                                     <div class="titre_card_activites">
-                                        <h4>Notre-Dame-de-la-Garde</h4>
+                                        <h5>Notre-Dame-de-la-Garde</h5>
                                     </div>
-                                </a> 
+                                </div> 
                             </div>
                     </article>    
             </main>
@@ -389,9 +382,9 @@
                             <h4>A propos</h4>
                         </div>
                         <div class="contenu_footer">
-                            <a href="#">Fonctionnement du site</a>
-                            <a href="#">Conditions générales</a>
-                            <a href="#">Données et confidentialité</a>
+                            <a>Fonctionnement du site</a>
+                            <a>Conditions générales</a>
+                            <a>Données et confidentialité</a>
                         </div>
                     </div>
                     <!-- Bloc footer menu 'Nos hébergements' -->
@@ -400,8 +393,8 @@
                             <h4>Nos hébérgements</h4>
                         </div>
                         <div class="contenu_footer">
-                            <a href="#">Charte qualité</a>
-                            <a href="#">Proposer votre hôtel</a>
+                            <a>Charte qualité</a>
+                            <a>Proposer votre hôtel</a>
                         </div>
                     </div>
                     <!-- Bloc footer menu 'Assistance' -->
@@ -410,8 +403,8 @@
                             <h4>Assistance</h4>
                         </div>
                        <div class="contenu_footer">
-                        <a href="#">Centre d'aide</a>
-                        <a href="#">Nous contacter</a>
+                        <a>Centre d'aide</a>
+                        <a>Nous contacter</a>
                        </div>
                     </div>
                 </div>

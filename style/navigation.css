@@ -8,7 +8,6 @@
             align-items: center;
             width: 96%;
             font-family: 'Raleway', sans-serif;
-           
     }
     /* Box comportement du logo dans le menu */
     .box_logo img{
@@ -26,10 +25,7 @@
     .item_menu{
         text-align: center;
         width: 162px;
-        text-decoration: none;
-        color:black;
     }
-
     /* Box contenant les items du menu de navigation */
     .item_menu:hover{
         border-top: solid rgba(0, 101, 252, 1) 2px;

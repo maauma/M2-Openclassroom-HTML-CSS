@@ -16,10 +16,6 @@
     .infos_pop i{
         color: #0065FC;
     }
-
-    .infos_pop{
-        height: 10%;
-    }
     /* Conteneur du bloc "Populaire" - titre + cards */
     .bloc_pop{
         background-color: rgb(242, 242, 242, 0.6);
@@ -28,19 +24,15 @@
         border-radius: 15px;
         width:32%;
         height: 625px;
-        
-       
-        
     }
     /* Organisation des cards du bloc "Populaire"  */
     .orga_pop{
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content:space-between;
         align-items: center;
         height: 80%;
         margin-top: 10px;
-        
         
     }
     /* Organisation Cards "Populaire"" */
@@ -53,44 +45,29 @@
         border-radius: 15px;
         width: 80%;
         height: 144px;
-       
-        text-decoration: none;
-        color:black;
+        overflow:auto;
     }
     /* Organisation textes + étoiles Cards "Populaire" */
     .contenu_card1{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: -10px;
-        height: 100%;
+        margin-bottom: 3px;
+        margin-left: 20px;
+        margin-top: -15px;
+        margin-right: 10px;
         
-        margin-left: 1.5%;
-        width: 70%;
         
-        overflow:auto;
-       
     }
-
-    .bloc_texte_pop{
-        
-        height:80%;
-    }
-
-    .prix{
-        margin-top:-15px;
-    }
-
     /*Image illustration pour les Cards "Populaire"*/
     .card_pop img{
         width: 137px;
-        height: 100%;
+        height: 144px;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         object-fit:cover;
     }
     /* Prix de la nuit cards "Populaire" */
-   
-
-  
-
+    .prix{
+        margin-top: -35%;   
+    }
