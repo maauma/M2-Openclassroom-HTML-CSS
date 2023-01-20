@@ -52,7 +52,7 @@
         border-top:none;
        }
     .box_menu .item_menu:hover{
-        color:rgba(0, 101, 252, 1) 2px;
+       
         border-bottom: solid rgba(0, 101, 252, 1) 2px;
         width: 162px;
     }
